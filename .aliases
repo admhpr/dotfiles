@@ -22,5 +22,4 @@ alias ct='source ~/workspace/tools/scripts/commit-type.sh'
 alias portainer='docker run -d -p 9090:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer'
 
 # secrets
-
 source $HOME/.secret_aliases
