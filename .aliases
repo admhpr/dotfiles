@@ -1,0 +1,26 @@
+# colorls
+alias ls='colorls --sort-dirs --report -a'
+alias ll='colorls --sort-dirs --report -all'
+alias lc='colorls —-tree'
+
+# dir shortcuts
+alias work='cd ~/workspace'
+alias learn='cd ~/learnspace'
+
+# git
+alias ga='git add --all'
+alias gc='git commit -am'
+alias gac='git add --all && git commit -m'
+alias gpu='git push origin $(git rev-parse --abbrev-ref HEAD)'
+alias gpl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias gs='git status'
+alias gf='git fetch --all'
+alias gbr='git checkout -b'
+alias ct='source ~/workspace/tools/scripts/commit-type.sh'
+
+# droplets
+alias codinglab='ssh -p 4444 adam@167.99.80.177'
+alias personal='ssh deploy@206.189.123.185'
+
+# docker
+alias portainer='docker run -d -p 9090:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer'
