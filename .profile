@@ -30,4 +30,5 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 
-
+# pip
+export PATH="$HOME/.local/bin:$PATH"

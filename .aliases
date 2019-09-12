@@ -6,6 +6,7 @@ alias lc='colorls —-tree'
 # dir shortcuts
 alias work='cd ~/workspace'
 alias learn='cd ~/learnspace'
+alias freelance='cd ~/freelance'
 
 # git
 alias ga='git add --all'
