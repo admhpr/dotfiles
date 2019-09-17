@@ -24,3 +24,7 @@ alias portainer='docker run -d -p 9090:9000 --restart always -v /var/run/docker.
 
 # secrets
 source $HOME/.secret_aliases
+
+# healpers
+
+alias pvcat='~/scripts/pvcat.sh'
